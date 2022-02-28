@@ -1,6 +1,7 @@
 package com.example.timetracker;
 
 import android.os.Bundle;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -35,5 +36,7 @@ public class MainActivity extends AppCompatActivity {
         //set the default page to add task
 
     }
+
+
 
 }
