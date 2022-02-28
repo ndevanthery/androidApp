@@ -10,7 +10,7 @@
         android:id="@+id/lblAllTasks"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="All tasks"
+        android:text="@string/History_allTasks_lbl"
         android:textColor="@color/black"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="45dp"

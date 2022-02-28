@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="4dp"
-        android:text="Create a new task"
+        android:text="@string/CreateTask_lbl"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="28dp"
             android:layout_marginTop="16dp"
-            android:text="TaskName"
+            android:text="@string/CreateTask_TaskName_lbl"
             android:textColor="@color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="28dp"
             android:layout_marginTop="116dp"
-            android:text="Description:"
+            android:text="@string/CreateTask_Description_lbl"
             android:textColor="@color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="28dp"
             android:layout_marginTop="360dp"
-            android:text="End Time:"
+            android:text="@string/CreateTask_endTime_lbl"
             android:textColor="@color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -68,7 +68,7 @@
             android:layout_height="25dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="268dp"
-            android:text="Start Time:"
+            android:text="@string/CreateTask_StartTime_lbl"
             android:textColor="@color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -80,7 +80,7 @@
             android:layout_marginStart="28dp"
             android:layout_marginTop="48dp"
             android:ems="10"
-            android:hint="Title"
+            android:hint="@string/CreateTask_title_txt"
             android:inputType="textPersonName"
             android:textColor="@color/white"
             android:textColorHint="@color/lightgrey"
@@ -95,8 +95,7 @@
             android:layout_marginTop="148dp"
             android:ems="10"
             android:gravity="start|top"
-            android:hint="small description"
-            android:inputType="textMultiLine"
+            android:hint="@string/CreateTask_description_txt"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -107,7 +106,7 @@
             android:layout_marginStart="28dp"
             android:layout_marginTop="304dp"
             android:ems="10"
-            android:hint="00:00"
+            android:hint="@string/CreateTask_starttime_txt"
             android:inputType="time"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -119,7 +118,7 @@
             android:layout_marginStart="28dp"
             android:layout_marginTop="388dp"
             android:ems="10"
-            android:hint="00:00"
+            android:hint="@string/CreateTask_endtime_txt"
             android:inputType="time"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -130,7 +129,7 @@
             android:layout_height="46dp"
             android:layout_marginStart="28dp"
             android:backgroundTint="@color/orange"
-            android:text="create"
+            android:text="@string/createTask_create_btn"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
