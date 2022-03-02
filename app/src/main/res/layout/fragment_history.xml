@@ -6,22 +6,67 @@
     android:layout_height="match_parent"
     tools:context=".ui.history.HistoryFragment">
 
-    <TextView
-        android:id="@+id/lblAllTasks"
+    <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/History_allTasks_lbl"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="4dp" />
+        android:fadeScrollbars="true"
+        android:fillViewport="true"
+        android:scrollbarDefaultDelayBeforeFade="0"
+        app:flow_verticalGap="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="409dp"
-        android:layout_height="698dp"
-        tools:itemCount="3"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="31dp"
-        tools:listitem="@android:layout/activity_list_item" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblAllTasks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/History_allTasks_lbl"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentContainerView3"
+                android:name="com.example.timetracker.ui.historyTask.historyTask"
+                android:layout_width="414dp"
+                android:layout_height="232dp"
+                android:clipToPadding="false" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentContainerView4"
+                android:name="com.example.timetracker.ui.historyTask.historyTask"
+                android:layout_width="414dp"
+                android:layout_height="232dp"
+                android:layout_marginTop="40dp" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentContainerView"
+                android:name="com.example.timetracker.ui.historyTask.historyTask"
+                android:layout_width="match_parent"
+                android:layout_height="232dp"
+                android:layout_marginTop="40dp" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentContainerView2"
+                android:name="com.example.timetracker.ui.historyTask.historyTask"
+                android:layout_width="match_parent"
+                android:layout_height="232dp"
+                android:layout_marginTop="40dp" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentContainerView5"
+                android:name="com.example.timetracker.ui.historyTask.historyTask"
+                android:layout_width="match_parent"
+                android:layout_height="232dp"
+                android:layout_marginTop="40dp" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -42,10 +42,22 @@ public class CreateTaskFragment extends Fragment {
                 String startTime = binding.txtStartTime.getText().toString();
                 String title = binding.txtTitle.getText().toString();
 
+                ////////////////////////////////////////////////////////////////////
+                //// test if the end is not before start?
+                ////////////////////////////////////////////////////////////////////
+
+
                 binding.txtTitle.setText("");
                 binding.txtDescription.setText("");
                 binding.txtEndTime.setText("");
                 binding.txtStartTime.setText("");
+
+                ////////////////////////////////////////////////////////////////////
+                //// store in the DB to add
+                ////////////////////////////////////////////////////////////////////
+
+                System.out.println(title+" | "+ description + " | " + startTime + " | " + endTime );
+
             }
         });
 
