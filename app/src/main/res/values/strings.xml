@@ -1,6 +1,32 @@
 <resources>
+
     <string name="app_name">TimeTracker</string>
+
+<!-- TITLES   -->
     <string name="title_home">History</string>
     <string name="title_dashboard">Add</string>
     <string name="title_notifications">Profile</string>
+<!-- CREATE TASK fragment  -->
+    <!-- labels-->
+    <string name="CreateTask_lbl">Create a new task</string>
+    <string name="CreateTask_TaskName_lbl">Task name</string>
+    <string name="CreateTask_Description_lbl">Description</string>
+    <string name="CreateTask_StartTime_lbl">Start Time:</string>
+    <string name="CreateTask_endTime_lbl">end Time:</string>
+
+
+    <!--textbox Hints-->
+    <string name="CreateTask_title_txt">Title</string>
+    <string name="CreateTask_description_txt">small description</string>
+    <string name="CreateTask_starttime_txt">00:00</string>
+    <string name="CreateTask_endtime_txt">00:00</string>
+
+    <!-- buttons text   -->
+
+    <string name="createTask_create_btn">create</string>
+
+
+<!-- HISTORY FRAGMENT-->
+    <!--  labels  -->
+    <string name="History_allTasks_lbl">All tasks</string>
 </resources>
