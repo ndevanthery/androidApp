@@ -11,8 +11,8 @@ import java.util.Date;
         public int id;
         public String Taskname;
         public String Description;
-        public Date StartTime;
-        public Date EndTime;
+        public int StartTime;
+        public int EndTime;
 
 
     public int getId() {
@@ -39,19 +39,19 @@ import java.util.Date;
         Description = description;
     }
 
-    public Date getStartTime() {
+    public int getStartTime() {
         return StartTime;
     }
 
-    public void setStartTime(Date startTime) {
+    public void setStartTime(int startTime) {
         StartTime = startTime;
     }
 
-    public Date getEndTime() {
+    public int getEndTime() {
         return EndTime;
     }
 
-    public void setEndTime(Date endTime) {
+    public void setEndTime(int endTime) {
         EndTime = endTime;
     }
 }
