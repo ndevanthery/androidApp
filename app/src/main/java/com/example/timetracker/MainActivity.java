@@ -7,7 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
+import android.widget.ListAdapter;
+import android.widget.ListView;
 
+import com.example.timetracker.ui.TaskAdapter;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +23,8 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.timetracker.databinding.ActivityMainBinding;
+
+import Data.DataModel.Task;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,7 +50,14 @@ public class MainActivity extends AppCompatActivity {
         //set the default page to add task
 
 
+
     }
+
+    public void removePayOnClickHandler(View v) {
+        Task item = (Task)v.getTag();
+        System.out.println(item.getTaskname() + " " + item.getDate());
+    }
+
 
 
 

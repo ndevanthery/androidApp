@@ -13,7 +13,15 @@ import java.util.Date;
         public String Description;
         public int StartTime;
         public int EndTime;
+        public String date;
 
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
 
     public int getId() {
         return id;
