@@ -2,11 +2,11 @@
 
     <string name="app_name">TimeTracker</string>
 
-<!-- TITLES   -->
+    <!-- TITLES   -->
     <string name="title_home">History</string>
     <string name="title_dashboard">Add</string>
     <string name="title_notifications">Profile</string>
-<!-- CREATE TASK fragment  -->
+    <!-- CREATE TASK fragment  -->
     <!-- labels-->
     <string name="CreateTask_lbl">Create a new task</string>
     <string name="CreateTask_TaskName_lbl">Task name</string>
@@ -26,7 +26,7 @@
     <string name="createTask_create_btn">create</string>
 
 
-<!-- HISTORY FRAGMENT-->
+    <!-- HISTORY FRAGMENT-->
     <!--  labels  -->
     <string name="History_allTasks_lbl">All tasks</string>
 </resources>

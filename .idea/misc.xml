@@ -13,11 +13,16 @@
         <entry key="..\:/HES/android/TimeTracker/app/src/main/res/layout/fragment_home.xml" value="0.4" />
         <entry key="..\:/HES/android/TimeTracker/app/src/main/res/layout/fragment_notifications.xml" value="0.4" />
         <entry key="..\:/HES/android/TimeTracker/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/simon/AndroidStudioProjects/androidApp/app/src/main/res/layout/activity_create_account.xml" value="0.264" />
         <entry key="..\:/Users/simon/AndroidStudioProjects/androidApp/app/src/main/res/layout/activity_login.xml" value="0.18342391304347827" />
         <entry key="..\:/Users/simon/AndroidStudioProjects/androidApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/simon/AndroidStudioProjects/androidApp/app/src/main/res/layout/fragment_createtask.xml" value="0.1480978260869565" />
         <entry key="..\:/Users/simon/AndroidStudioProjects/androidApp/app/src/main/res/layout/fragment_dashboard.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/simon/AndroidStudioProjects/androidApp/app/src/main/res/layout/fragment_history.xml" value="0.1480978260869565" />
         <entry key="..\:/Users/simon/AndroidStudioProjects/androidApp/app/src/main/res/layout/fragment_home.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/simon/AndroidStudioProjects/androidApp/app/src/main/res/layout/fragment_notifications.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/simon/AndroidStudioProjects/androidApp/app/src/main/res/layout/fragment_profile.xml" value="0.1480978260869565" />
+        <entry key="..\:/Users/simon/AndroidStudioProjects/androidApp/app/src/main/res/layout/history_task_fragment.xml" value="0.1480978260869565" />
         <entry key="..\:/Users/simon/AndroidStudioProjects/androidApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
         <entry key="..\:/Users/simon/AndroidStudioProjects/androidApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2465" />
       </map>
@@ -28,5 +33,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
   </component>
 </project>

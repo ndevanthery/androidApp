@@ -1,6 +1,7 @@
 package Data.DataModel;
 
 
+import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
@@ -10,16 +11,27 @@ public class Employee {
     @PrimaryKey
     public int id;
 
+    @ColumnInfo(name = "name")
     public String Name;
+    @ColumnInfo(name = "fistname")
     public String FirstName;
+    @ColumnInfo(name = "function")
     public String Function;
+    @ColumnInfo(name = "telnumber")
     public String Telnumber;
+    @ColumnInfo(name = "email")
     public String Email;
+    @ColumnInfo(name = "address")
     public String Address;
-    public int Npa;
+    @ColumnInfo(name = "npa")
+    public String Npa;
+    @ColumnInfo(name = "image_url")
     public String Image_Url;
+    @ColumnInfo(name = "username")
     public String Username;
+    @ColumnInfo(name = "password")
     public String Password;
+    @ColumnInfo(name = "isAdmin")
     public Boolean isAdmin;
 
 
@@ -79,11 +91,11 @@ public class Employee {
         Address = address;
     }
 
-    public int getNpa() {
+    public String getNpa() {
         return Npa;
     }
 
-    public void setNpa(int npa) {
+    public void setNpa(String npa) {
         Npa = npa;
     }
 

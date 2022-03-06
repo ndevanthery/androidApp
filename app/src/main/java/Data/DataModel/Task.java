@@ -1,5 +1,6 @@
 package Data.DataModel;
 
+import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 import java.util.Date;
@@ -9,9 +10,13 @@ import java.util.Date;
 
         @PrimaryKey
         public int id;
+        @ColumnInfo(name = "Taskname")
         public String Taskname;
+        @ColumnInfo(name = "Description")
         public String Description;
+        @ColumnInfo(name = "StartTime")
         public int StartTime;
+        @ColumnInfo(name = "EndTime")
         public int EndTime;
 
 
