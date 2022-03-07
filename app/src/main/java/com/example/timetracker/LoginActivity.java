@@ -34,6 +34,12 @@ public class LoginActivity extends AppCompatActivity {
 
 
     }
+    public void GoToRegister(View view){
+        startActivity(new Intent(this, CreateAccountActivity.class));
+    }
+
+
+
 
     public void Login(View view) {
         Username =  findViewById(R.id.editTextTextEmailAddress);
