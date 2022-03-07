@@ -89,9 +89,65 @@ public class CreateAccountActivity extends AppCompatActivity {
             System.out.println("Admin :" + employee1.getAdmin());
             System.out.println("NPA :" + employee1.getNpa());
         }
-
-
     }
+
+    public boolean CheckIfEmpty() {
+        boolean anyisempty = true;
+
+        if (Name.getText().toString().equals("")){
+            showError(Name, "Can not be empty");
+            return true;
+        }
+        if (Firstname.getText().toString().equals(""))
+        {
+            showError(Firstname, "Can not be empty");
+            return true;
+        }
+        if (Function.getText().toString().equals(""))
+        {
+            showError(Function, "Can not be empty");
+            return true;
+        }
+        if (Telnumber.getText().toString().equals(""))
+        {
+            showError(Telnumber, "Can not be empty");
+            return true;
+        }
+
+        if (Email.getText().toString().equals(""))
+        {
+            showError(Email, "Can not be empty");
+            return true;
+        }
+
+        if (Address.getText().toString().equals(""))
+        {
+            showError(Address, "Can not be empty");
+            return true;
+        }
+
+        if (Username.getText().toString().equals(""))
+        {
+            showError(Username, "Can not be empty");
+            return true;
+        }
+        if (Password.getText().toString().equals("")) {
+            showError(Password, "Can not be empty");
+            return true;
+        }
+        if (NPA.getText().toString().equals("")) {
+            showError(NPA, "Can not be empty");
+            return true;
+        }
+        else
+            return false;
+    }
+
+    private void showError(EditText input, String s){
+        input.setError(s);
+    }
+
+
 
 
 }

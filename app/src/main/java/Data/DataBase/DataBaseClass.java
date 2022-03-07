@@ -12,7 +12,7 @@ import Data.DaoClass.TaskDao;
 import Data.DataModel.Employee;
 import Data.DataModel.Task;
 
-@Database(entities ={Employee.class, Task.class}, version = 1 )
+@Database(entities ={Employee.class, Task.class}, version = 2 )
 public abstract class DataBaseClass extends RoomDatabase {
 
         private static final String DB_NAME ="postWorker_DB";
@@ -27,7 +27,6 @@ public abstract class DataBaseClass extends RoomDatabase {
             }
             return instance;
         }
-
 
     public abstract EmployeeDao employeeDao();
         public abstract TaskDao taskDao();
